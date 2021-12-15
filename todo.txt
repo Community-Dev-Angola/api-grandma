@@ -1,0 +1,38 @@
+ROADMAP
+
+Servidor
+- Gerar o template do servidor com o seguinte:
+    app.js -> arquivo base para o servidor (com o express) -> FEITO
+    public/ -> pasta com arquivos publicos -> FEITO
+    static/ -> pasta com arquivos estaticos -> FEITO
+    views/ -> pasta com o arquivo das views (caso necessario) -> FEITO
+    app/ -> pasta com rotas e controladores do app -> FEITO
+        controllers/ -> pasta com os controladores -> FEITO
+            base.js -> arquivo com get/set da request
+            route.js -> arquivo que vai validar a rota
+        router.js -> arquivo com as rotas da api
+    config/ -> pasta com tudo que e configuracao -> FEITO
+        database.js -> pasta com o arquivo do banco de dados -> FEITO
+
+API
+- Gerar o template de um servidor simples com o seguinte:
+    run.bat -> arquivo que vai iniciar o servidor (e testar todas criacoes das tabelas)
+    run.sh -> mesma coisa, mas para linux
+
+    app.js -> arquivo base do servidor
+    routes.js -> arquivo com as rotas do servidor
+    app/ -> pasta dos getters e setters das rotas
+        nome_tabela.js -> arquivo onde vai ficar a tabela
+    config/ -> pasta de configuracoes
+        database.js -> pasta com banco de dados
+    database/
+        models/ -> pasta com as tabelas geradas pelo banco de dados
+            model.js arquivo do banco de dados gerado
+        migrations/ -> pasta com as migracoes do banco de dados
+            migration.js migracao aqui
+
+Banco de dados
+    run.bat -> arquivo que vai criar e testar cada banco de dados com o node
+    database.js -> arquivo com a conexao do banco de dados
+    tables/ -> pasta com as tabelas
+        table.js -> tabela do banco de dados
