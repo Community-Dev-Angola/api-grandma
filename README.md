@@ -224,7 +224,7 @@ Where
 </pre>
 And then, there is the terminal output:
 <pre>
-<img src='images/1.png'>
+<img src='images/1.PNG'>
 </pre>
 Then, run "npm install <ORM>" to install it localy inside the project output. If you specified Sequelize, run "npm install sequelize".
 Note: mysql2 may be required for sequelize or another in your generated project, run "npm install mysql2" to fix it.
