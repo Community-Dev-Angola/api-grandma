@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  <img alt="Angola API" src="https://img.shields.io/static/v1?label=Angola%20API%20Alpha&message=V1&color=8257E5&labelColor=000000">
+  <img alt="Angola API" src="https://img.shields.io/static/v1?label=API%20%Grandma20Alpha&message=V1&color=8257E5&labelColor=000000">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
