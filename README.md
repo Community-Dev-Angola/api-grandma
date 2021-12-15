@@ -1,7 +1,7 @@
 #
 
 <h1 align="center">
-    <img src="./images/grandma.gif" width="120">
+    <img src="./images/grandma.gif" width="200">
     <p>
     API GRANDMA - Faster API creation and database configuration
     </p>
